@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="858" height="920" viewBox="0 0 858 920">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+        filter: url(#filter);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="429" x2="429" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16f6ab"/>
+      <stop offset="1" stop-color="#008fe8"/>
+    </linearGradient>
+    <filter id="filter" x="0" y="0" width="858" height="920" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="5.099" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.16"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Ellipse_8_copy_31" data-name="Ellipse 8 copy 31" class="cls-1" d="M756.585,769.616a93.527,93.527,0,0,1-93.6-93.453V356.916L504.733,562.987a92.569,92.569,0,0,1-73,36.1h0c-0.919.008-1.832,0.118-2.753,0.1-0.92.019-1.833-.091-2.753-0.1h0a92.566,92.566,0,0,1-73-36.1L194.974,356.916V676.163a93.6,93.6,0,0,1-187.2,0V98.95C7.769,44.3,46.635,0,101.371,0c55.041,0,77.8,31.415,89.905,47.185,168.642,219.656,223.09,290.521,234.949,305.953v0l2.753,3.585,2.753-3.585v0c11.86-15.432,66.309-86.3,234.95-305.953C678.789,31.415,701.545,0,756.585,0c54.736,0,93.6,44.3,93.6,98.95V676.163A93.528,93.528,0,0,1,756.585,769.616ZM834.616,920H23.371C7.947,920,0,912.3,0,899.2,0,865.4,195,771.821,427.694,771.821c235.25,0,430.3,93.881,430.3,127.383C857.992,912.158,850.133,920,834.616,920Z"/>
+</svg>
